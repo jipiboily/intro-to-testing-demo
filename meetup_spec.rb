@@ -8,6 +8,7 @@ describe Meetup do
   # - start with an empty list of attendees
   # - add attendees
   # - get the total number of attendees
+  # - test driven development, please
 
   describe '#attendees' do
     # it { expect(meetup).to respond_to(:attendees) }
@@ -23,7 +24,7 @@ describe Meetup do
     # it { expect(meetup).to respond_to(:add_attendee).with(1).argument }
     # it { expect(meetup.add_attendee('JP')).to eq ['JP'] }
 
-    # context 'with some attendees' do
+    context 'with some attendees' do
     #   before do
     #     meetup.add_attendee 'Foo'
     #     meetup.add_attendee 'Bar'
@@ -31,7 +32,7 @@ describe Meetup do
 
     #   it { expect { meetup.add_attendee 'JP' }.to change(meetup.attendees, :count).by(1) }
     #   it { expect(meetup.add_attendee 'JP').to eq ['Foo', 'Bar', 'JP'] }
-    # end
+    end
   end
 
   describe '#number_of_attendees' do

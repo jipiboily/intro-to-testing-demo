@@ -10,3 +10,4 @@ This is a really, really simple class reprensenting a meetup and it's attendees.
 - start with an empty list of attendees
 - add attendees
 - get the total number of attendees
+- test driven development, please
