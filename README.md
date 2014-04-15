@@ -11,6 +11,3 @@ This is a really, really simple class reprensenting a meetup and it's attendees.
 - add attendees
 - get the total number of attendees
 - test driven development, please
-
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jipiboily/intro-to-testing-demo/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
-
